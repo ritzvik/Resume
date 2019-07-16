@@ -23,6 +23,15 @@
   \usepackage[default]{lato}
 \fi
 
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+
 % Change the colours if you want to
 \definecolor{VividPurple}{HTML}{000000}
 \definecolor{SlateGrey}{HTML}{2E2E2E}
@@ -36,6 +45,7 @@
 % for \cvskill if you want to
 \renewcommand{\itemmarker}{{\small\textbullet}}
 \renewcommand{\ratingmarker}{\faCircle}
+% \renewcommand{\cvsection}{\Large}
 
 %% sample.bib contains your publications
 \addbibresource{sample.bib}
@@ -71,7 +81,7 @@
 %% You can always just use \marginpar{...} if you do
 %% not need to align the top of the contents to any
 %% \cvsection title in the "main" bar.
-\cvsection[page1sidebar]{Experience}
+\cvsection[page1sidebar]{\Large Experience}
 
 \cvevent{RESEARCH INTERN}{Siemens Technology and Services Pvt. Ltd.}{Jun 2019 -- Present}{Bengaluru, India}
 \begin{itemize}
@@ -84,15 +94,15 @@
 
 \cvevent{RESEARCH INTERN}{Siemens Technology and Services Pvt. Ltd.}{Dec 2018 -- Feb 2019}{Bengaluru, India}
 \begin{itemize}
-\item Set up blockchain(Ethereum) infrastructure and benchmark transaction rates under various parematers like variable block times, transaction loads, block size etc.
+\item Set up blockchain(Ethereum) infrastructure and benchmark transaction rates under various parameters like variable block times, transaction loads, block size etc.
 \item Designing a supply chain system on blockchain infrasctructure.
-\item Analyzing other blockchain platforms like tendermint etc. against Ethereum.
+\item Analyzing other blockchain platforms like Tendermint etc. against Ethereum.
 %\smallskip
 \end{itemize}
 
 %\divider
 
-\cvsection{TECHNICAL SKILLS}
+\cvsection{\Large TECHNICAL SKILLS}
 
 \cvskill{Programming Languages - C/C++, Python}{4}
 \cvskill{Deep Learning}{4}
@@ -103,7 +113,7 @@
 
 %\divider
 
-\cvsection{SOFTWARE SKILLS}
+\cvsection{\Large SOFTWARE SKILLS}
 \begin{itemize}
 \item Python Libraries and Frameworks :
   \begin{itemize}
@@ -113,9 +123,9 @@
   \begin{itemize}
     \item Neo4J, ArangoDB
   \end{itemize}
-\item Containerization and Orchestration :
+\item Tools :
   \begin{itemize}
-    \item Docker, Kubernetes
+    \item Git, Docker, Kubernetes
   \end{itemize}
 \item Simulation :
   \begin{itemize}
@@ -127,19 +137,18 @@
 
 
 
-\cvsection{Miscellenous Positions}
+\cvsection{\Large POSITIONS OF RESPONSIBILITY}
 
 
-\cvevent{MENTOR}{Summer of Code in Space, ESA}{May 2019 -- Present}{}
+\cvevent{\large MENTOR}{Summer of Code in Space, ESA}{May 2019 -- Present}{}
 \begin{itemize}
-\item Assigned as project mentor in SOCIS(Summer of Code in Space) organized by ESA(European Space Agency).
-\item Mentoring a student for the EinsteinPy Project.
+\item Assigned as project mentor in SOCIS(Summer of Code in Space) organized by ESA(European Space Agency) for The EinsteinPy Project.
 %\smallskip
 \end{itemize}
 
 \divider
 
-\cvevent{DELEGATE}{Indian Youth Delegation to China}{July 2018}{}
+\cvevent{\large DELEGATE}{Indian Youth Delegation to China}{July 2018}{}
 \begin{itemize}
 \item Represented India as a delegate in Indian Youth Delegation to China - 2018.
 %\smallskip
