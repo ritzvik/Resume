@@ -24,12 +24,30 @@
 
 \usepackage{hyperref}
 \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+
+  % If using pdflatex:
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{lato}
+\usepackage{fontawesome}
+\usepackage{setspace}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+
+
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Ritwik Saha} % Your name
-\address{Mandi, Himachal Pradesh} % Your address
+\address{\faMapMarker ~ Mandi, Himachal Pradesh} % Your address
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{(+91)~7838958076 \\ b16110@students.iitmandi.ac.in \\ www.linkedin.com/in/ritwik-saha \\ github.com/ritzvik} % Your phone number and email
+\address{\faPhone ~ (+91)~7838958076 ~ \faEnvelope ~ b16110@students.iitmandi.ac.in ~ \faLinkedin ~ www.linkedin.com/in/ritwik-saha ~ \faGithub ~ github.com/ritzvik} % Your phone number and email
 
 \begin{document}
 
@@ -175,6 +193,45 @@ Version Control & Git, GitHub
 \item The Project won 1\textsuperscript{st} prize in 2018 edition of the Design Practicum Curriculum.
 \end{rSubsection}
 
+\begin{rSubsection}{\href{https://github.com/ritzvik/Miscellaneous-Projects/blob/master/techmeet.pdf}{Safety Device for Fishing Vessels}}{November 2017 - January 2018}{}{}
+\item Designed \& Implemented a low-cost solution for small vessels to avoid
+collision with big ships at night.
+\item The project estensilvely used arrays of Arduino and RaspberryPi along with GPS and BlueTooth modules. This was a core IoT project.
+\item The Project won 5\textsuperscript{th} prize in 2018 edition of the Inter-IIT Tech Meet held at IIT Madras.
+\end{rSubsection}
+
+\begin{rSubsection}{\href{https://github.com/ritzvik/DL-Video-Colorization}{Video Colorization using Deep Learning}}{April 2019}{}{}
+\item Used deep learning to colorize black and white videos.
+\item Used Autoencoder like networks with various skip connections and CNN blocks.
+\item Poposed an time-series aware approach to colorize videos.
+\end{rSubsection}
+
 \end{rSection}
 
+
+
+
+%--------------------------------------------------
+\begin{rSection}{PUBLICATIONS} 
+
+\item K. Agrawal, Y. Baweja, D. Dwivedi, R. Saha et
+al., "A Comparison of Class Imbalance Techniques
+for Real-World Landslide Predictions",
+in 2017 International Conference on Machine
+Learning and Data Science (MLDS), DOI
+10.1109/MLDS.2017.21. Published by IEEE.
+
+\end{rSection}
+
+
+
+%----------------------------------------------------
+\begin{rSection}{INTERESTS}
+\item Deep Learning
+\item Blockchain
+\item Distributed Computing
+\item Data Structures \& Algorithms
+\item Computer Architecture
+\item Differential Geometry \& General Relativity
+\end{rSection}
 \end{document}
